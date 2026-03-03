@@ -34,7 +34,6 @@ Desktop Tamagotchi is a single-file Python application that runs a virtual pet s
 desktop-tamagotchi/
 │
 ├── tamagotchi.py        # Full application — model, view, controller in one file
-├── requirements.txt     # Optional dependencies
 └── README.md
 ```
 
@@ -81,7 +80,7 @@ The application runs without any of these packages — tray and notification fea
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/desktop-tamagotchi.git
+git clone https://github.com/Korbut-Serhii/Tamagotchi/
 cd desktop-tamagotchi
 
 # Install optional dependencies
@@ -180,5 +179,6 @@ Notification throttle interval is controlled by the `interval` parameter in `sho
 ---
 
 ## Acknowledgements
+
 
 Built with [Tkinter](https://docs.python.org/3/library/tkinter.html), [pystray](https://github.com/moses-palmer/pystray), [Pillow](https://python-pillow.org/), and [plyer](https://github.com/kivy/plyer).
